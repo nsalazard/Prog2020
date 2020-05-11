@@ -1,7 +1,6 @@
 #include <iostream>
 int main (void) {
 
-    int suma = 0;
     int a = 0;
     int b = 0;
     int c = 0;
@@ -13,9 +12,9 @@ int main (void) {
 
     std::cout <<"Hola, porfavor ingresa un numero natural"<< std::endl;
     std::cin >> a;
-    std::cout <<"Porfavor ingresa un numero natural"<< std::endl;
+    std::cout <<"Ingresa un numero natural"<< std::endl;
     std::cin >> b;
-    std::cout <<"Porfavor ingresa un numero natural"<< std::endl;
+    std::cout <<"Ingresa un numero natural"<< std::endl;
     std::cin >> c;
 
     if (a >= 0 && b >= 0 && c >= 0){
